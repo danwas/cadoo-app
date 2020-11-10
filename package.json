@@ -24,7 +24,8 @@
     "start": "node backend/app/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "node backend/app/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
