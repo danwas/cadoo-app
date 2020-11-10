@@ -11,8 +11,16 @@ import { DropdownButton, MenuItem } from 'react-bootstrap';
 function Misc() {
 
     function clicked() {
-        alert('Comming soon');
+        alert('Coming soon');
       }
+
+    function clicked2() {
+    window.open('https://drive.google.com/drive/folders/14BMFVpAlzuxMOupb47O708EiSTo2vxRv?usp=sharing');
+    }
+
+    function clicked3() {
+    window.open('https://youtu.be/CkzTCsL6cPw');
+    }
 
     return (
         <ListGroup className="list-group">
@@ -36,6 +44,8 @@ function Misc() {
             <ListGroupItem className="item" action onClick={clicked}>FAQ</ListGroupItem>
             <ListGroupItem className="item" action onClick={clicked}>Terms &#38; Conditions</ListGroupItem>
             <ListGroupItem className="item" action onClick={clicked}>Contact</ListGroupItem>
+            <ListGroupItem className="item2" action onClick={clicked2}>Download report</ListGroupItem>
+            <ListGroupItem className="item2" action onClick={clicked3}>Demo video</ListGroupItem>
         </ListGroup> 
 
     );
