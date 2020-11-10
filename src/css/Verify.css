@@ -1,0 +1,23 @@
+.Verify {
+    padding: 60px 0;
+    color: rgb(255, 255, 255);
+  }
+
+    
+  .Verify .text {
+    font-weight: 400;
+    
+  }
+  
+  .Verify form {
+    margin: 0 auto;
+    max-width: 320px;
+    
+  }
+  
+  .Verify .field {
+    background-color: rgb(94, 94, 94);
+  }
+  
+  
+  

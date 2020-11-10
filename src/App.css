@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  align-items: center;
+  /* background: #414141; */
+  
+}
+
+.App .navbar {
+  font-weight: bold;
+  background: #494949;
+  border-color: rgb(47, 53, 66);
+  align-items: center;
+  position: sticky;
+
+  margin: 0;
+}
+
+.App .home_logo {
+  object-fit: cover;
+  height: 175%;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .search {
+  background: rgb(94, 94, 94);
+  border-color: rgb(47, 53, 66);
+  color: rgb(235, 235, 235);
+  height: 25px;
+  left: -175px;
+  padding: 1%;
+  padding-left: 10%;
+  margin: 0px;
+  font-size: small;
+  font-weight: 600;
+  position: absolute;
+}
+
+
+.App .searchbtn {
+  border-color: rgb(47, 53, 66);
+  background: rgb(51, 51, 51);
+  color: rgb(199, 199, 199);
+  height: 25px;
+  padding: 1px 10px;
+  left: -30px;
+  margin-left: 1%;
+  font-size: small;
+  position: relative;
+  font-weight: 800;
+}
+
+.App .col {
+  background: rgb(29, 29, 29);
+  width: 33%;
+}
+.App .signlog {
+  color: rgb(255, 127, 80);
+}
+
+.signlog t {
+  color: rgb(255, 127, 80);
+}
+
+.App .nav-item-auth {
+  color: rgb(255, 127, 80);
+}
+

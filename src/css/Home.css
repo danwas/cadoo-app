@@ -1,0 +1,216 @@
+.Home {
+  background:#414141;
+  padding:0;
+  margin:0;
+}
+
+.Home .lander {
+    text-align: left;
+  }
+  
+  .Home .lander p {
+    color: #999;
+  }
+
+  .Home .centertext{
+    position: absolute;
+    text-align: left;
+    width: 480px;
+    left: -90px;
+    top: -90px;
+  }
+  .Home .center{
+    align-items: left;
+    position: relative;
+    width: 500px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: 'hidden';
+    overflow-wrap: break-word;
+    padding-bottom: 3%;
+  }
+
+  .innerimg {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    height: 6%;
+  }
+
+  .innerpreview {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    height: 50%;
+  }
+
+  .Home .centerimg{
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+    text-align: left;
+    filter: brightness(50%);
+  }
+.Home .planned {
+    width: 20%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .Home .plannedimg{
+    object-fit: cover;
+    height: 250px;
+    margin: auto;
+    text-align: left;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(50%);
+  }
+
+
+
+  .Home .column {
+    float: left;
+    width: 20%;
+    height: 200px;
+    padding: 3px;
+    display: block;
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+  .column img{
+    float: left;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    filter: brightness(50%);
+  }
+  .column h3 {
+    float: left;
+    word-wrap: break-word;
+    color: rgb(241, 242, 246);
+    padding:0;
+    padding-right: 10px;
+    margin: 0;
+  }
+  .column p {
+    width: 80%;
+    word-wrap: break-word;
+    float: left;
+  }
+
+  .column h5 {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    float: left;
+    word-wrap: break-word;
+    color: rgb(211, 211, 211);
+  }
+
+  .description {
+    width: 95%;
+    padding: 2%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: scroll;
+    max-height: 80px;
+  }
+
+
+  
+  /* Clear floats after image containers */
+  .Home .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .topDiv {
+  height: 50%;
+  margin: auto;
+}
+
+.bottomDiv {
+  height: 100%;
+  width: 100%;
+  padding-left: 1%;
+  margin: auto;
+}
+
+.column-left {
+  float: left;
+  background: #272727;
+  width: 15%;
+  min-height: 1500px;
+  height: 100%;
+}
+
+.column-left .list-group {
+  padding-left: 2%;
+}
+
+.column-left .list-group .item {
+  background-color: rgb(44, 44, 44);
+  color: rgb(207, 207, 207);
+  margin-top: 3px;
+  border-color: #494949;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.column-left .list-group .category-group {
+  margin-top: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+.column-left .list-group .category-item {
+  display:flex;
+  align-items: center;
+  border: 1.5px dashed;
+  border-color: #494949;
+  background-color: rgb(44, 44, 44);
+  color: rgb(194, 194, 194);
+  font-size: 12px;
+  font-weight: 300;
+  height: 30px;
+}
+
+
+.column-right {
+  float: left;
+  width: 85%;
+  height: 100%; 
+  background: 414141;
+}
+
+h2{
+  color: rgb(165, 165, 165);
+}
+
+p3 {
+  max-width: fit-content;
+  color: rgb(209, 209, 209);
+}
+
+.time{
+  position: absolute;
+  width: 50%;
+  color: white;
+}
+
+.time p1 {
+  color: rgb(214, 214, 214);
+}
+
+.roomSignupButton {
+  width: 25%;
+  margin: 0 auto;
+  background-color: #272727;
+}

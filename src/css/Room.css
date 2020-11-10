@@ -1,0 +1,101 @@
+.Room {
+
+}
+
+.Room .column-left {
+    float: flex;
+    background: #272727;
+    width: 15%;
+    height: 100%;
+    padding: 0.5%;
+    border: 1px solid white;
+    border-color: rgb(66, 66, 66);
+    border-radius: 5px;
+}
+
+.Room .column-left .buttons-container {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.Room .column-left .buttons-container .buttons-leave {
+    width: 60%;
+    height: 90%;
+    background-color:  #272727;
+    color: rgba(212, 25, 63, 0.89);
+    border-color: rgb(66, 66, 66);
+    font-weight: 600;
+}
+
+.Room .column-left .buttons-container  .buttons-mute-off {
+    height: 90%;
+    width: 50%;
+    background-color:  #272727;
+    color: rgba(255, 255, 255, 0.89);
+    border-color: rgb(66, 66, 66);
+
+}
+
+.Room .column-left .buttons-container .mute-img {
+    height: 14px;
+    width: 14px;
+}
+
+
+.Room .column-left .local-video-container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+.Room .column-left .chat {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    height: 70%;
+    background-color: rgb(49, 49, 49);
+    border: 1px solid white;
+    border-color: rgb(66, 66, 66);
+}
+
+.Room .column-left .chat p1{
+    position: absolute;
+    bottom:0;
+    left:0;
+    color: white;
+}
+
+.Room .column-right {
+    float: left;
+    width: 85%;
+    height: 100%; /* Should be removed. Only for demonstration */
+    padding-left: 0.2%;
+}
+
+
+.Room .column-right .navbar-room {
+    background-color: #272727;
+    border-color: rgb(66, 66, 66);
+}
+
+.Room .column-right .navbar-room .nav-item {
+    color: rgb(179, 179, 179);
+    font-weight: 500;
+    margin-left: 37.5%;
+}
+
+.Room .column-right .lower-video-bar .remote-video-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+
+}
+
+.Room .column-right .lower-video-bar .remote-video-item {
+}

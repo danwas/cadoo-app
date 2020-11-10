@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cd5b140.chunk.css",
+    "main.js": "/static/js/main.47b14524.chunk.js",
+    "main.js.map": "/static/js/main.47b14524.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.546fcc44.chunk.js": "/static/js/2.546fcc44.chunk.js",
+    "static/js/2.546fcc44.chunk.js.map": "/static/js/2.546fcc44.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3c1f653e874a3dfff396b046738bfe10.js": "/precache-manifest.3c1f653e874a3dfff396b046738bfe10.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4cd5b140.chunk.css.map": "/static/css/main.4cd5b140.chunk.css.map",
+    "static/js/2.546fcc44.chunk.js.LICENSE.txt": "/static/js/2.546fcc44.chunk.js.LICENSE.txt",
+    "static/media/anything.png": "/static/media/anything.40d09feb.png",
+    "static/media/chess.png": "/static/media/chess.0e698afa.png",
+    "static/media/election_cadoo.png": "/static/media/election_cadoo.f96fa954.png",
+    "static/media/haunting.png": "/static/media/haunting.721be43b.png",
+    "static/media/knitting.png": "/static/media/knitting.4dbed7a1.png",
+    "static/media/live_icon.png": "/static/media/live_icon.c1c4a95e.png",
+    "static/media/logo_tight.png": "/static/media/logo_tight.cb9a12f7.png",
+    "static/media/mute.png": "/static/media/mute.c37d9852.png",
+    "static/media/olga.png": "/static/media/olga.ee6bdbc7.png",
+    "static/media/pizza_cadoo.png": "/static/media/pizza_cadoo.52939a19.png",
+    "static/media/plants_cadoo.png": "/static/media/plants_cadoo.e89b815a.png",
+    "static/media/preview.png": "/static/media/preview.8e5daa2d.png",
+    "static/media/space_cadoo.png": "/static/media/space_cadoo.06f4d9c3.png",
+    "static/media/spanska.png": "/static/media/spanska.72300e2a.png",
+    "static/media/sunday-football.png": "/static/media/sunday-football.406cd1a7.png",
+    "static/media/trav.png": "/static/media/trav.2b400c70.png",
+    "static/media/warhammer_cadoo.png": "/static/media/warhammer_cadoo.5713e5a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.546fcc44.chunk.js",
+    "static/css/main.4cd5b140.chunk.css",
+    "static/js/main.47b14524.chunk.js"
+  ]
+}
