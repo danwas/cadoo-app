@@ -20,7 +20,7 @@
     top: -90px;
   }
   .Home .center{
-    align-items: center;
+    align-items: left;
     position: relative;
     width: 500px;
     height: 100%;
@@ -47,11 +47,11 @@
 
   .Home .centerimg{
     object-fit: cover;
-    width: 750px;
-    height: 100%;
-    float: left;
+    width: 500px;
+    height: 300px;
+    text-align: left;
+    filter: brightness(50%);
   }
-
 .Home .planned {
     width: 20%;
     justify-content: left;
@@ -131,7 +131,7 @@
   }
 
   .topDiv {
-  align-content: center;
+  height: 50%;
   margin: auto;
 }
 
