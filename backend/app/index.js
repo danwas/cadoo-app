@@ -1,7 +1,7 @@
 const setupBoilerplate = require('./boilerplate/setup.js');
 
 const { app, io, listen } =  setupBoilerplate();
-const port = 8000;
+const port = process.env.PORT || 3000;
 
 
 // Bind REST controller to '/'*
